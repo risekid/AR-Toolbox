@@ -369,13 +369,13 @@
 	],
 	"images": [
 		{
-			"uri": "Assets/Vehicle/Textures/Cars.jpg"
+			"uri": "Cars.jpg"
 		},
 		{
-			"uri": "Assets/Vehicle/Textures/Cars_Gloss_converted_metalRoughness.jpg"
+			"uri": "Cars_Gloss_converted_metalRoughness.jpg"
 		},
 		{
-			"uri": "Assets/Vehicle/Textures/Cars_Emission.jpg"
+			"uri": "Cars_Emission.jpg"
 		}
 	],
 	"materials": [
