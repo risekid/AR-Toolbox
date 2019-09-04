@@ -1,0 +1,211 @@
+{
+	"asset": {
+		"generator": "Unity 5.6.4f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 99,
+			"max": [ 0.3, 0.3075401, 0.3 ],
+			"min": [ -0.3, -0.3, -0.3 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 1188,
+			"componentType": 5126,
+			"count": 99,
+			"max": [ 0.999975, 1, 1 ],
+			"min": [ -0.999975, -0.999975, -1 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 99,
+			"max": [ 0.9969077, 0.9959605 ],
+			"min": [ 0.004245408, 0.003699616 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 792,
+			"componentType": 5126,
+			"count": 99,
+			"max": [ 0.9369097, 0.994225 ],
+			"min": [ 0.00390625, 0.00390625 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 99,
+			"max": [ 0.9999875, 0.9999764, 0.9999875, 1 ],
+			"min": [ -0.9999998, -0.9999766, -1, 1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 174,
+			"max": [ 98 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 5892,
+			"uri": "biox.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 348,
+			"target": 34963,
+			"byteOffset": 5544
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1584,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 2376,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 1584
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1584,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 3960
+		}
+	],
+	"images": [
+		{
+			"uri": "Assets/CrowArt - PBR Cardboard Box/Textures/t_box_1_albedo.jpg"
+		},
+		{
+			"uri": "Assets/CrowArt - PBR Cardboard Box/Textures/t_box_1_metallic_converted_metalRoughness.jpg"
+		},
+		{
+			"uri": "Assets/CrowArt - PBR Cardboard Box/Textures/t_box_1_normal.jpg"
+		},
+		{
+			"uri": "Assets/CrowArt - PBR Cardboard Box/Textures/t_box_1_occlusion.jpg"
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 1, 1, 1],
+				"metallicRoughnessTexture" : {
+					"index" : 1,
+					"texCoord" : 0
+				},
+				"metallicFactor": 1,
+				"roughnessFactor": 1
+			},
+			"normalTexture" : {
+				"index" : 2,
+				"texCoord" : 0,
+				"scale" : 0.6
+			},
+			"emissiveFactor": [0, 0, 0],
+			"occlusionTexture" : {
+				"index" : 3,
+				"texCoord" : 0,
+				"strength" : 1
+			},
+			"doubleSided": false,
+			"name": "m_cardboardBox_1"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_box_1_29450Cardboard_box_1 (1)",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TEXCOORD_1": 3,
+						"TANGENT": 4
+					},
+					"indices": 5,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_Cardboard_box_1 (1)_62698",
+			"mesh": 0,
+			"matrix": [-0.6363542, 0, 0.771397, 0, 0, 1, 0, 0, -0.771397, 0, -0.6363542, 0, -0.251, 0.5, 0.083, 1]
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0,
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"sampler": 0,
+			"source": 2
+		},
+		{
+			"sampler": 0,
+			"source": 3
+		}
+	]
+}
